@@ -11,5 +11,9 @@ export class OpponentsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  action: boolean = false;
+  popUp() {
+    this.action = !this.action;
+  }
 
 }
