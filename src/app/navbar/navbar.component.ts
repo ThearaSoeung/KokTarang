@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+  action: boolean = true;
   constructor() { }
 
   ngOnInit(): void {
+  }
+  toggle() {
+    this.action = !this.action;
+
   }
 
 }

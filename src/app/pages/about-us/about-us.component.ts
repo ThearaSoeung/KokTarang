@@ -20,7 +20,7 @@ export class AboutUsComponent implements OnInit {
     },
     {
       name: "Bro Ra",
-      position: "Designer",
+      position: "Software Engineer",
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sed velit nobis molestiae',
       img: 'https://media.cnn.com/api/v1/images/stellar/prod/220605164634-messi-estonia-5-goals.jpg?c=original'
     },
