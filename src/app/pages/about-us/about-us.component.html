@@ -1,1 +1,16 @@
-<p>about-us works!</p>
+<div class="=w-[100%] bg-[#16213E] p-[50px] grid grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3 gap-5 place-items-center">
+    <div *ngFor="let dev of developer">
+        <div class="sm:w-[500px] sm:h-[200px] bg-[#ffffff] rounded-lg shadow-xl flex-col sm:flex-row flex items-center gap-3 p-4 sm:pl-5 sm:pr-2">
+            <div class="min-w-[150px] h-[150px] bg-[green] overflow-hidden rounded-md">
+                <img class="object-cover w-[100%] h-[100%]" [src]="dev.img" alt="" />
+            </div>
+            <div class="flex flex-col">
+                <h1 class="m-0 text-[#2470e2]">{{ dev.name }}</h1>
+                <h3 class="m-0 font-bold">{{ dev.position }}</h3>
+                <p class="m-0">
+                    {{ dev.description }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
