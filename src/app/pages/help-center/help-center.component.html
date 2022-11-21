@@ -3,10 +3,11 @@
 <div>
     <div class="relative flex flex-col items-center justify-center sm:px-0 px-6 z-20 pb-20">
         <div class="md:py-5 py-2">
-            <h1 role="heading" class="xl:text-6xl md:text-5xl text-xl font-bold leading-10 text-white">Frequently asked questions</h1>
+            <div><img src="../../../assets/output-onlinegiftools.gif" width="415px" alt=""><h1 class=" text-[#4af8ec] flex pt-[10px]">SUPPORT CENTER <img src="../../../assets/24_7-removebg-preview.png" width="220px" class="pl-[10px]" alt=""></h1></div>
+        <h1 role="heading" class="xl:text-6xl md:text-5xl text-xl font-bold leading-10 text-yellow-50 pt-[30px] text-center">HI, HOW CAN WE HELP ?</h1>
         </div>
 
-        <div class="lg:w-1/2 md:w-8/12 sm:w-9/12 w-full">
+        <div class="lg:w-1/2 md:w-8/12 sm:w-9/12 w-full mt-[40px]">
             <div class="bg-white shadow rounded p-8">
                 <div (click)="isToggle === 1 ? (isToggle = 0) : (isToggle = 1)" class="cursor-pointer flex items-center justify-between">
                     <div>
@@ -23,7 +24,7 @@
                 </div>
                 <ul *ngIf="isToggle === 1">
                     <li>
-                        <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.</p>
+                        <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">Because it's easy use this Web application and a good felcure, Have a lot of Sport at there . Easy to Booking, Find a good Competition .</p>
                     </li>
                 </ul>
             </div>
@@ -63,13 +64,71 @@
                 </div>
                 <ul *ngIf="isToggle === 3">
                     <li>
-                        <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">If you want to choose Pro or Business plan the you can use all payments. You can pay from Paypal, Payoneer, Master Card, Debit Card.</p>
+                        <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">It's really safe Cause we have a communication with Caption of a team and our partner . </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white shadow rounded p-8 mt-8">
+                <div (click)="isToggle === 4 ? (isToggle = 0) : (isToggle = 4)" class="cursor-pointer flex items-center justify-between">
+                    <div>
+                        <h2 [ngClass]="'text-base font-semibold leading-none ' + (isToggle === 4 ? 'text-indigo-700' : 'text-gray-800')">How to have communication with other team ?</h2>
+                    </div>
+                    <button data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                        <svg role="button" aria-label="close dropdown" class="hidden" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="10" role="button" aria-label="open dropdown" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L5 5L9 1" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <ul *ngIf="isToggle === 4">
+                    <li>
+                        <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">You can make communicate with other team in Telagram .</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white shadow rounded p-8 mt-8">
+                <div (click)="isToggle === 5 ? (isToggle = 0) : (isToggle = 5)" class="cursor-pointer flex items-center justify-between">
+                    <div>
+                        <h2 [ngClass]="'text-base font-semibold leading-none ' + (isToggle === 5 ? 'text-indigo-700' : 'text-gray-800')">How to recover password?</h2>
+                    </div>
+                    <button data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                        <svg role="button" aria-label="close dropdown" class="hidden" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="10" role="button" aria-label="open dropdown" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L5 5L9 1" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <ul *ngIf="isToggle === 5">
+                    <li>
+                        <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">You can give us your Email or your Number Phone.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-white shadow rounded p-8 mt-8">
+                <div (click)="isToggle === 6 ? (isToggle = 0) : (isToggle = 6)" class="cursor-pointer flex items-center justify-between">
+                    <div>
+                        <h2 [ngClass]="'text-base font-semibold leading-none ' + (isToggle === 6 ? 'text-indigo-700' : 'text-gray-800')">What kind sport do you have more ?</h2>
+                    </div>
+                    <button data-menu class="focus:outline-none focus:ring-2 focus:ring-indigo-600 focus:ring-offset-2 ring-offset-white cursor-pointer">
+                        <svg role="button" aria-label="close dropdown" class="hidden" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 5L5 1L9 5" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg width="10" role="button" aria-label="open dropdown" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L5 5L9 1" stroke="#4B5563" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <ul *ngIf="isToggle === 6">
+                    <li>
+                        <p class="text-base leading-normal text-gray-600 mt-4 lg:w-96">We will update all sports at there .</p>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-</div>
-
-   
+</div>  
 </main>
